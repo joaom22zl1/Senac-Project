@@ -156,9 +156,8 @@ nav #icon-instagram:hover {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 0.3rem;
   padding: 0.5%;
-  gap: 8px;
+  gap: 5px;
   background-color: #ffff;
   border-radius: 10px;
   box-shadow: 0.8px 0.8px 2.2px rgba(0, 0, 0, 0.042),
@@ -211,7 +210,7 @@ nav #icon-instagram:hover {
 
 #content #list-clients {
   margin-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
@@ -221,13 +220,13 @@ nav #icon-instagram:hover {
 
 #content #list-attendants {
   margin-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
 #content #list-opnions {
   margin-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
@@ -237,7 +236,7 @@ nav #icon-instagram:hover {
 
 #content-slider {
   padding: 0rem 1rem;
-  width: 350px;
+  width: 325px;
 }
 
 #content-slider ul li {
@@ -247,7 +246,7 @@ nav #icon-instagram:hover {
 #content #list-tips {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
@@ -256,7 +255,7 @@ nav #icon-instagram:hover {
 }
 
 .img-content {
-  width: 350px;
+  width: 325px;
   margin: 0 auto;
   border-radius: 5px;
 }
@@ -264,14 +263,14 @@ nav #icon-instagram:hover {
 #list-whatToDo {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
 #list-comunications-tips {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  padding-left: 2rem;
+  padding-left: 1rem;
   border-left: 2px solid blue;
 }
 
