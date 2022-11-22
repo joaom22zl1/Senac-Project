@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Site desenvolvido para o projeto integrador SENAC BA"
+    />
+    <meta name="keywords" content="Atendimento,Clientes" />
+    <meta name="author" content="João Marcos" />
+    <link rel="shortcut icon" href="img/icon-page.png" type="image/x-icon" />
+    <link rel="stylesheet" media="(max-width: 600px)" href="src/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(min-width: 600px) and (max-width: 800px)"
+      href="src/tablet.css"
+    />
+    <link rel="stylesheet" media="(min-width:800px)" href="src/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".slider").bxSlider({
+          auto: true,
+          captions: true,
+          pager: true
+        })
+      })
+    </script>
+
+    <title>Atendimento Paulo Afonso-Projeto</title>
+  </head>
+  <body>
+    <header>
+      <img
+        src="img/logo-senac.png"
+        alt="Senac Logo"
+        title="Senac"
+        id="logo-senac"
+      />
+      <nav>
+        <a href="#tags" id="link-home">Home</a>
+        <a
+          href="https://www.instagram.com/directionsgestao/?igshid=YmMyMTA2M2Y%3D"
+          id="link-instagram"
+          target="_blank"
+          >Instagram</a
+        >
+        <img src="public/instagram.svg" alt="" id="icon-instagram" />
+      </nav>
+    </header>
+    <main>
+      <div id="tags">
+        <span>Atendimento ao cliente</span>
+        <span>Engajamento de cliente</span>
+        <span>Melhorar no atendimento</span>
+      </div>
+      <section id="first-content">
+        <div id="summary">
+          <div id="summary-text">
+            <h1 id="page-title">Atendimento no comércio de Paulo Afonso-BA</h1>
+            <p>
+              O município de Paulo Afonso na Bahia tem bastante fama por seu
+              gigantesco parque hidroelétrico,suas belezas naturais e no
+              desenvolvimento da piscicultura, principalmente na criação de
+              Tilápias, hoje atrai indústrias para a fabricação de rações para
+              piscicultura e outras finalidades, além disso o que muito se
+              comenta é como a cidade tem sua economia voltada ao comércio local
+              e ao turismo.
+            </p>
+          </div>
+        </div>
+        <div id="content-navigation">
+          <a href="#imp-atendimento">Importância de um bom atendimento</a>
+          <a href="#search">Pesquisa</a>
+          <a href="#list-opnions">Opiniões</a>
+          <a href="#list-whatToDo">Como lidar com problemas?</a>
+          <a href="#comunication-tips">Comunicação</a>
+        </div>
+      </section>
+      <div id="content">
+        <h2 id="content-title">Comércio</h2>
+        <p>
+          Com o aumento do <strong>comércio atacadista</strong> que vende
+          produtos em grandes quantidades visando donos de mercados que recebem
+          descontos maiores por ainda revenderem a mercadoria, Com isso veio a
+          abertura de <strong>novos estabelecimentos</strong> voltados tanto
+          para a venda de variedades quanto para bens de consumo não duráveis.
+        </p>
+        <h2 class="secundary-titles" id="imp-atendimento">
+          A importância de um bom atendimento
+        </h2>
+        <p>
+          Todos sabemos a importância de um <strong>bom atendimento</strong>,
+          ser bem atendido hoje em dia é a forma com que os comerciantes criam
+          vínculos com seus clientes e fazem com que eles voltem sempre. Segundo
+          dados coletados pelos alunos do Senac Paulo Afonso, os Pauloafonsinos
+          não se sentem bem nos ambientes que frequentam,cerca de
+          <strong
+            >80% dos entrevistados responderam que não são bem atendidos</strong
+          >,100% já passaram por uma experiência negativa no atendimento.
+        </p>
+        <h2 class="secundary-titles" id="search">Pesquisa</h2>
+        <p>
+          Nossa repórter Glenda Tainara foi às ruas do comércio para saber um
+          pouco mais sobre a opinião dos moradores locais e obteve as seguintes
+          respostas:
+        </p>
+        <ul id="list-clients">
+          <li>Os atendentes foram um pouco persuasivos;</li>
+          <li>
+            Fui olhado dos pés até a cabeça pela forma que estava vestido;
+          </li>
+          <li>
+            Fui mal atendida pq não sabia muito sobre tal produto e a atendente
+            julgou,pedindo pra vim com meus pais comprar;
+          </li>
+          <li>Não gosto de atendentes que não desejam bom dia ou agradecem.</li>
+        </ul>
+        <p>Em questão aos atendentes obtivemos sempre a mesma resposta:</p>
+        <ul id="list-attendants">
+          <li>
+            Não temos paciência para lidar com clientes mal educados, eles acham
+            que não somos pessoas e estamos ali somente para agradar - Ana,
+            atendente de farmácia.
+          </li>
+        </ul>
+        <h2 class="secundary-titles">Opiniões sobre como melhorar:</h2>
+        <ul id="list-opnions">
+          <li>Um melhor treinamento das empresas com os seus atendentes.</li>
+          <li>Agilidade no tempo.</li>
+          <li>Qualidade de atendimento.</li>
+          <li>
+            Melhorar o tempo de atendimento e o jeito como o atendente age com o
+            cliente.
+          </li>
+        </ul>
+        <div id="container-slider">
+          <div id="content-slider">
+            <ul class="slider">
+              <li><img src="slider/1.png" alt="" /></li>
+              <li><img src="slider/2.png" alt="" /></li>
+              <li><img src="slider/3.png" alt="" /></li>
+              <li><img src="slider/4.png" alt="" /></li>
+              <li><img src="slider/5.png" alt="" /></li>
+              <li><img src="slider/6.png" alt="" /></li>
+            </ul>
+          </div>
+        </div>
+        <p>
+          Para se ter uma ideia,por conta da
+          <strong>pandemia do novo coronavírus</strong> o comércio foi um dos
+          setores mais afetados, com isso vários comerciantes tiveram que se
+          reinventar, mas uma das principais mudanças foi a forma de se
+          <strong>comunicar com seus clientes</strong>. Muitos usaram como
+          ferramentas as redes sociais e apps de entrega. Que por sua vez
+          colaborou com a praticidade no atendimento trazendo novas formas de
+          <strong>competitividade</strong> no setor comerciário.
+        </p>
+        <p>
+          Diante de todo esse contexto pandêmico, analisamos
+          <strong>ambos os lados</strong> e levamos em consideração os erros e
+          os acertos, visando saber o que se pode melhorar para orientar os
+          profissionais e gestores do comércio sobre a importância de um
+          atendimento de excelência buscando
+          <strong>satisfação como um diferencial competitivo</strong>. Com o
+          intuito de entender sobre as boas práticas de atendimento, conversamos
+          com Jasmily Emanoela, proprietária da GELATERIA CACTUS,
+          microempreendedora que tem como objetivo o diferencial eo atendimento
+          eficaz aos seus clientes.
+        </p>
+        <img src="img/content-womanThinking.png" class="img-content" alt="" />
+        <ul id="list-tips">
+          <li>o cliente é seu templo, trate-o da melhor forma possível.</li>
+          <li>
+            O cliente tem que se sentir bem-vindo, em casa, se o dia dele está
+            ruim ao entrar na loja faça o máximo para que o dia dele melhore.
+          </li>
+          <li>Jamais ele deve estar sentindo que está incomodando.</li>
+          <li>O cliente sempre está certo.</li>
+        </ul>
+        <h2 class="segundary-titles">Como lidar com clientes insatisfeitos?</h2>
+        <img
+          src="img/content-angryClient.jpg"
+          id="img-content"
+          class="img-content"
+          alt=""
+        />
+        <ul id="list-whatToDo">
+          <li>
+            Converse com o cliente, pergunte se há algum problema e de que forma
+            podemos ajudá-lo, se for o caso presentei o cliente com algum
+            brinde.
+          </li>
+        </ul>
+        <h2 class="segundary-titles" id="comunication-tips">
+          Dicas de comunicação
+        </h2>
+        <ul id="list-comunications-tips">
+          <li>Seja simpático, comunicativo e atencioso.</li>
+          <li>
+            Atenção a satisfação do cliente: sempre observe se o cliente está
+            gostando, se não tiver gostando, pense em como você pode mudar a
+            situação.
+          </li>
+          <li>Atenção a comunicação excessiva: não seja invasiva.</li>
+          <li>Fale baixo: não torne a loja um ambiente desagradável.</li>
+        </ul>
+        <h2 class="segundary-titles">Conclusão</h2>
+        <p>
+          O atendimento em Paulo Afonso pode ser aprimorado com uma atenção
+          didicada tanto ao lado dos clientes quanto dos atendentes.
+          <strong>Boas práticas aumentam a qualidade dos servições</strong> ,
+          tempos de produçao e entrega , logística e é claro , o respeito entra
+          prestadores de serviços e seus clientes.
+        </p>
+      </div>
+      <div id="considerations">
+        <h3>Gostou do conteúdo ?</h3>
+        <p>
+          Visite nosso Instagram:
+          <a
+            href="https://instagram.com/directionsgestao?igshid=YmMyMTA2M2Y="
+            target="_blank"
+            >instagram.com/directionsgestao</a
+          >
+        </p>
+      </div>
+    </main>
+    <script src="src/main.js"></script>
+    <footer>
+      <p>
+        Site desenvolvido para o Projeto Integrador da Unidade Curricular 08 -
+        Senac Paulo Afonso
+      </p>
+    </footer>
+  </body>
+</html>
