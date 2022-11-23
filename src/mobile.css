@@ -154,17 +154,12 @@ nav #icon-instagram:hover {
 
 #content-navigation {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   padding: 0.5%;
   gap: 5px;
   background-color: #ffff;
   border-radius: 10px;
-  box-shadow: 0.8px 0.8px 2.2px rgba(0, 0, 0, 0.042),
-    2px 1.9px 5.3px rgba(0, 0, 0, 0.061), 3.8px 3.6px 10px rgba(0, 0, 0, 0.075),
-    6.7px 6.5px 17.9px rgba(0, 0, 0, 0.089),
-    12.5px 12.1px 33.4px rgba(0, 0, 0, 0.108),
-    30px 29px 80px rgba(0, 0, 0, 0.15);
 }
 
 #content-navigation a {
@@ -174,6 +169,7 @@ nav #icon-instagram:hover {
   border-radius: 10px;
   padding: 4px 2px;
   font-size: 0.7em;
+  text-align: center;
 }
 
 #content-navigation a:hover {
@@ -255,9 +251,9 @@ nav #icon-instagram:hover {
 }
 
 .img-content {
-  width: 325px;
-  margin: 0 auto;
+  width: 300px;
   border-radius: 5px;
+  margin: 0 auto;
 }
 
 #list-whatToDo {
